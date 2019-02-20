@@ -13,3 +13,7 @@ body, html {
   display: flex;
   flex-direction: column;
 }
+
+.img-container {
+  margin: 50px auto;
+}
