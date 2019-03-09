@@ -1,3 +1,4 @@
+const nr = require('newrelic');
 const express = require('express');
 const morgan = require('morgan');
 var proxy = require('http-proxy-middleware');
@@ -10,6 +11,3 @@ app.use('/api/properties/', proxy({ target: 'http://localhost:8081', changeOrigi
 app.use('/:id', express.static('client'));
 
 app.listen(port);
-
-//forward any requests from proxy to service server 
-

@@ -5,11 +5,14 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.16.4",
+    "faker": "^4.1.0",
     "morgan": "^1.9.1",
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "http-proxy-middleware": "^0.19.1"
+    "artillery": "^1.6.0-27",
+    "http-proxy-middleware": "^0.19.1",
+    "newrelic": "^5.6.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
